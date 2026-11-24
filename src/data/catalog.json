@@ -1,0 +1,374 @@
+[
+  {
+    "id": "netflix",
+    "name": "Netflix",
+    "category": "Video",
+    "plans": [
+      { "name": "Mobile", "cycle": "monthly", "pricePaise": 14900 },
+      { "name": "Basic", "cycle": "monthly", "pricePaise": 19900 },
+      { "name": "Standard", "cycle": "monthly", "pricePaise": 49900 },
+      { "name": "Premium", "cycle": "monthly", "pricePaise": 64900 }
+    ],
+    "officialUrl": "https://www.netflix.com/in/",
+    "cancelUrl": "https://help.netflix.com/en/node/407",
+    "lastVerified": null
+  },
+  {
+    "id": "amazon-prime",
+    "name": "Amazon Prime",
+    "category": "Video",
+    "plans": [
+      { "name": "Monthly", "cycle": "monthly", "pricePaise": 29900, "yearlyPaise": 149900 },
+      { "name": "Quarterly", "cycle": "quarterly", "pricePaise": 59900 },
+      { "name": "Annual", "cycle": "yearly", "pricePaise": 149900 },
+      { "name": "Prime Lite", "cycle": "yearly", "pricePaise": 79900 }
+    ],
+    "officialUrl": "https://www.amazon.in/prime",
+    "cancelUrl": "https://www.amazon.in/gp/help/customer/display.html?nodeId=G6LDPN7YJHYKH2J6",
+    "lastVerified": null
+  },
+  {
+    "id": "jiohotstar",
+    "name": "JioHotstar",
+    "category": "Video",
+    "plans": [
+      { "name": "Mobile", "cycle": "quarterly", "pricePaise": 14900 },
+      { "name": "Super", "cycle": "quarterly", "pricePaise": 29900 },
+      { "name": "Premium", "cycle": "quarterly", "pricePaise": 49900 },
+      { "name": "Premium Annual", "cycle": "yearly", "pricePaise": 149900 }
+    ],
+    "officialUrl": "https://www.hotstar.com/in/subscribe",
+    "cancelUrl": "https://help.hotstar.com/in/en/support/home",
+    "lastVerified": null
+  },
+  {
+    "id": "sonyliv",
+    "name": "SonyLIV",
+    "category": "Video",
+    "plans": [
+      { "name": "Premium", "cycle": "monthly", "pricePaise": 29900, "yearlyPaise": 149900 },
+      { "name": "Premium Annual", "cycle": "yearly", "pricePaise": 149900 }
+    ],
+    "officialUrl": "https://www.sonyliv.com/subscription",
+    "cancelUrl": "https://www.sonyliv.com/help-center",
+    "lastVerified": null
+  },
+  {
+    "id": "zee5",
+    "name": "ZEE5",
+    "category": "Video",
+    "plans": [
+      { "name": "Premium HD", "cycle": "quarterly", "pricePaise": 39900 },
+      { "name": "Premium HD Annual", "cycle": "yearly", "pricePaise": 119900 }
+    ],
+    "officialUrl": "https://www.zee5.com/myaccount/subscription",
+    "cancelUrl": "https://www.zee5.com/helpcenter",
+    "lastVerified": null
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "category": "Music",
+    "plans": [
+      {
+        "name": "Premium Individual",
+        "cycle": "monthly",
+        "pricePaise": 13900,
+        "yearlyPaise": 118900,
+        "studentPaise": 6900,
+        "familyPaise": 22900
+      },
+      { "name": "Premium Family", "cycle": "monthly", "pricePaise": 22900 }
+    ],
+    "officialUrl": "https://www.spotify.com/in-en/premium/",
+    "cancelUrl": "https://support.spotify.com/in-en/article/cancel-premium/",
+    "lastVerified": null
+  },
+  {
+    "id": "youtube-premium",
+    "name": "YouTube Premium",
+    "category": "Music",
+    "plans": [
+      {
+        "name": "Individual",
+        "cycle": "monthly",
+        "pricePaise": 14900,
+        "yearlyPaise": 149000,
+        "studentPaise": 8900,
+        "familyPaise": 29900
+      },
+      { "name": "Family", "cycle": "monthly", "pricePaise": 29900 }
+    ],
+    "officialUrl": "https://www.youtube.com/premium",
+    "cancelUrl": "https://support.google.com/youtube/answer/6308278",
+    "lastVerified": null
+  },
+  {
+    "id": "apple-music",
+    "name": "Apple Music",
+    "category": "Music",
+    "plans": [
+      {
+        "name": "Individual",
+        "cycle": "monthly",
+        "pricePaise": 11900,
+        "studentPaise": 5900,
+        "familyPaise": 17900
+      }
+    ],
+    "officialUrl": "https://www.apple.com/in/apple-music/",
+    "cancelUrl": "https://support.apple.com/en-in/118428",
+    "lastVerified": null
+  },
+  {
+    "id": "jiosaavn",
+    "name": "JioSaavn",
+    "category": "Music",
+    "plans": [
+      { "name": "Pro", "cycle": "monthly", "pricePaise": 8900, "yearlyPaise": 39900 },
+      { "name": "Pro Annual", "cycle": "yearly", "pricePaise": 39900 }
+    ],
+    "officialUrl": "https://www.jiosaavn.com/pro",
+    "cancelUrl": "https://www.jiosaavn.com/help",
+    "lastVerified": null
+  },
+  {
+    "id": "google-one",
+    "name": "Google One",
+    "category": "Cloud",
+    "plans": [
+      { "name": "100 GB", "cycle": "monthly", "pricePaise": 13000, "yearlyPaise": 130000 },
+      { "name": "100 GB Annual", "cycle": "yearly", "pricePaise": 130000 },
+      { "name": "2 TB", "cycle": "monthly", "pricePaise": 65000, "yearlyPaise": 650000 }
+    ],
+    "officialUrl": "https://one.google.com/about/plans",
+    "cancelUrl": "https://support.google.com/googleone/answer/9140429",
+    "lastVerified": null
+  },
+  {
+    "id": "icloud-plus",
+    "name": "iCloud+",
+    "category": "Cloud",
+    "plans": [
+      { "name": "50 GB", "cycle": "monthly", "pricePaise": 7500 },
+      { "name": "200 GB", "cycle": "monthly", "pricePaise": 21900 },
+      { "name": "2 TB", "cycle": "monthly", "pricePaise": 74900 }
+    ],
+    "officialUrl": "https://www.apple.com/in/icloud/",
+    "cancelUrl": "https://support.apple.com/en-in/108047",
+    "lastVerified": null
+  },
+  {
+    "id": "microsoft-365",
+    "name": "Microsoft 365",
+    "category": "Productivity",
+    "plans": [
+      { "name": "Personal", "cycle": "monthly", "pricePaise": 48900, "yearlyPaise": 489900 },
+      { "name": "Personal Annual", "cycle": "yearly", "pricePaise": 489900 },
+      { "name": "Family Annual", "cycle": "yearly", "pricePaise": 619900 }
+    ],
+    "officialUrl": "https://www.microsoft.com/en-in/microsoft-365/buy/compare-all-microsoft-365-products",
+    "cancelUrl": "https://support.microsoft.com/en-us/account-billing/cancel-a-microsoft-subscription-b1c8be5d-f45e-436b-bba6-2ce1d4cf4d1a",
+    "lastVerified": null
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "category": "Productivity",
+    "plans": [{ "name": "Plus", "cycle": "monthly", "pricePaise": 83000, "yearlyPaise": 800000 }],
+    "officialUrl": "https://www.notion.com/pricing",
+    "cancelUrl": "https://www.notion.com/help/upgrade-or-downgrade-your-plan",
+    "lastVerified": null
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "category": "Productivity",
+    "plans": [
+      { "name": "Pro", "cycle": "monthly", "pricePaise": 49900, "yearlyPaise": 399900 },
+      { "name": "Pro Annual", "cycle": "yearly", "pricePaise": 399900 }
+    ],
+    "officialUrl": "https://www.canva.com/pricing/",
+    "cancelUrl": "https://www.canva.com/help/cancel-subscription/",
+    "lastVerified": null
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "category": "Productivity",
+    "plans": [
+      { "name": "Go", "cycle": "monthly", "pricePaise": 39900 },
+      { "name": "Plus", "cycle": "monthly", "pricePaise": 199900 }
+    ],
+    "officialUrl": "https://chatgpt.com/pricing",
+    "cancelUrl": "https://help.openai.com/en/articles/7232927",
+    "lastVerified": null
+  },
+  {
+    "id": "cultfit",
+    "name": "Cult.fit",
+    "category": "Fitness",
+    "plans": [
+      { "name": "cultpass HOME", "cycle": "monthly", "pricePaise": 39900, "yearlyPaise": 299900 }
+    ],
+    "officialUrl": "https://www.cult.fit/cultpass",
+    "cancelUrl": "https://support.cult.fit/",
+    "lastVerified": null
+  },
+  {
+    "id": "healthifyme",
+    "name": "HealthifyMe",
+    "category": "Fitness",
+    "plans": [{ "name": "Pro", "cycle": "monthly", "pricePaise": 49900, "yearlyPaise": 399900 }],
+    "officialUrl": "https://www.healthifyme.com/",
+    "cancelUrl": "https://www.healthifyme.com/faqs/",
+    "lastVerified": null
+  },
+  {
+    "id": "kindle-unlimited",
+    "name": "Kindle Unlimited",
+    "category": "Reading",
+    "plans": [{ "name": "Monthly", "cycle": "monthly", "pricePaise": 16900, "trialDays": 30 }],
+    "officialUrl": "https://www.amazon.in/kindle-dbs/hz/subscribe/ku",
+    "cancelUrl": "https://www.amazon.in/kindle-dbs/ku/ku-central",
+    "lastVerified": null
+  },
+  {
+    "id": "audible",
+    "name": "Audible",
+    "category": "Reading",
+    "plans": [{ "name": "Premium Plus", "cycle": "monthly", "pricePaise": 19900, "trialDays": 30 }],
+    "officialUrl": "https://www.audible.in/",
+    "cancelUrl": "https://www.audible.in/howtocancel",
+    "lastVerified": null
+  },
+  {
+    "id": "duolingo",
+    "name": "Duolingo",
+    "category": "Learning",
+    "plans": [
+      {
+        "name": "Super",
+        "cycle": "monthly",
+        "pricePaise": 52900,
+        "yearlyPaise": 399900,
+        "trialDays": 14
+      },
+      { "name": "Super Annual", "cycle": "yearly", "pricePaise": 399900 }
+    ],
+    "officialUrl": "https://www.duolingo.com/super",
+    "cancelUrl": "https://support.duolingo.com/hc/en-us/articles/204830690",
+    "lastVerified": null
+  },
+  {
+    "id": "coursera-plus",
+    "name": "Coursera Plus",
+    "category": "Learning",
+    "plans": [
+      { "name": "Monthly", "cycle": "monthly", "pricePaise": 499900, "trialDays": 7 },
+      { "name": "Annual", "cycle": "yearly", "pricePaise": 3399900 }
+    ],
+    "officialUrl": "https://www.coursera.org/courseraplus",
+    "cancelUrl": "https://www.coursera.support/s/article/208280036",
+    "lastVerified": null
+  },
+  {
+    "id": "linkedin-premium",
+    "name": "LinkedIn Premium",
+    "category": "Learning",
+    "plans": [{ "name": "Career", "cycle": "monthly", "pricePaise": 156700, "trialDays": 30 }],
+    "officialUrl": "https://premium.linkedin.com/",
+    "cancelUrl": "https://www.linkedin.com/help/linkedin/answer/a1342443",
+    "lastVerified": null
+  },
+  {
+    "id": "xbox-game-pass",
+    "name": "Xbox Game Pass",
+    "category": "Gaming",
+    "plans": [
+      { "name": "Core", "cycle": "monthly", "pricePaise": 34900 },
+      { "name": "Ultimate", "cycle": "monthly", "pricePaise": 54900 }
+    ],
+    "officialUrl": "https://www.xbox.com/en-IN/xbox-game-pass",
+    "cancelUrl": "https://support.xbox.com/en-IN/help/subscriptions-billing/manage-subscriptions/cancel-recurring-billing-or-subscription",
+    "lastVerified": null
+  },
+  {
+    "id": "playstation-plus",
+    "name": "PlayStation Plus",
+    "category": "Gaming",
+    "plans": [
+      { "name": "Essential", "cycle": "monthly", "pricePaise": 49900, "yearlyPaise": 299900 },
+      { "name": "Essential Annual", "cycle": "yearly", "pricePaise": 299900 }
+    ],
+    "officialUrl": "https://www.playstation.com/en-in/ps-plus/",
+    "cancelUrl": "https://www.playstation.com/en-in/support/subscriptions/cancel-playstation-subscription/",
+    "lastVerified": null
+  },
+  {
+    "id": "the-hindu",
+    "name": "The Hindu",
+    "category": "News",
+    "plans": [
+      {
+        "name": "Digital",
+        "cycle": "monthly",
+        "pricePaise": 19900,
+        "yearlyPaise": 159900,
+        "studentPaise": 9900
+      }
+    ],
+    "officialUrl": "https://www.thehindu.com/subscription/",
+    "cancelUrl": "https://www.thehindu.com/contact-us/",
+    "lastVerified": null
+  },
+  {
+    "id": "times-prime",
+    "name": "Times Prime",
+    "category": "News",
+    "plans": [{ "name": "Annual", "cycle": "yearly", "pricePaise": 119900 }],
+    "officialUrl": "https://www.timesprime.com/",
+    "cancelUrl": "https://www.timesprime.com/faq",
+    "lastVerified": null
+  },
+  {
+    "id": "util-mobile",
+    "name": "Mobile plan",
+    "category": "Utilities",
+    "plans": [{ "name": "", "cycle": "monthly", "pricePaise": 0 }],
+    "officialUrl": "",
+    "cancelUrl": "",
+    "lastVerified": null,
+    "isTemplate": true
+  },
+  {
+    "id": "util-broadband",
+    "name": "Broadband",
+    "category": "Utilities",
+    "plans": [{ "name": "", "cycle": "monthly", "pricePaise": 0 }],
+    "officialUrl": "",
+    "cancelUrl": "",
+    "lastVerified": null,
+    "isTemplate": true
+  },
+  {
+    "id": "util-electricity",
+    "name": "Electricity",
+    "category": "Utilities",
+    "plans": [{ "name": "", "cycle": "monthly", "pricePaise": 0 }],
+    "officialUrl": "",
+    "cancelUrl": "",
+    "lastVerified": null,
+    "isTemplate": true
+  },
+  {
+    "id": "util-dth",
+    "name": "DTH",
+    "category": "Utilities",
+    "plans": [{ "name": "", "cycle": "monthly", "pricePaise": 0 }],
+    "officialUrl": "",
+    "cancelUrl": "",
+    "lastVerified": null,
+    "isTemplate": true
+  }
+]

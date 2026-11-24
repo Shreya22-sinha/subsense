@@ -1,0 +1,126 @@
+@import 'tailwindcss';
+
+/* Dark mode is driven by a `dark` class on the app root (PRD 4). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Brand + semantic tokens. Semantic colours switch with the theme via CSS variables,
+   so components use `bg-surface`, `text-ink` etc. instead of pairing every class with dark:. */
+@theme inline {
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Bricolage Grotesque', 'Plus Jakarta Sans', ui-sans-serif, sans-serif;
+
+  --color-brand: #6c4cf1;
+  --color-brand-strong: #5a3be0;
+  --color-brand-2: #2a8cf0;
+  --color-success: #1fa463;
+  --color-warning: #ffb400;
+  --color-danger: #ff5a5f;
+
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-line: var(--line);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-ink: var(--brand-ink);
+  --color-danger-ink: var(--danger-ink);
+  --color-success-ink: var(--success-ink);
+  --color-warning-ink: var(--warning-ink);
+
+  --radius-card: 16px;
+
+  /* One step larger than Tailwind's defaults: easier to read on a phone. */
+  --text-xs: 0.8125rem;
+  --text-xs--line-height: 1.15rem;
+  --text-sm: 0.9375rem;
+  --text-sm--line-height: 1.375rem;
+}
+
+.app-root {
+  --canvas: #f6f5fb;
+  --surface: #ffffff;
+  --surface-2: #efedf7;
+  --ink: #16141f;
+  --ink-muted: #5b5870;
+  --line: #e3e0ef;
+  --brand-soft: #ece8fe;
+  --brand-ink: #5232d6;
+  --danger-ink: #c4262c;
+  --success-ink: #137a47;
+  --warning-ink: #8a5a00;
+  color-scheme: light;
+  /* Space kept clear for a phone's home bar; the desktop frame sets its own value. */
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.app-root.dark {
+  --canvas: #0e0d14;
+  --surface: #1a1824;
+  --surface-2: #252232;
+  --ink: #f2f1f7;
+  --ink-muted: #aeaac2;
+  --line: #34304a;
+  --brand-soft: #2b2450;
+  --brand-ink: #b9a8ff;
+  --danger-ink: #ff8f93;
+  --success-ink: #5fd39a;
+  --warning-ink: #ffcc5c;
+  color-scheme: dark;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply font-sans antialiased;
+    margin: 0;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-brand);
+    outline-offset: 2px;
+  }
+  button:not(:disabled),
+  [role='button']:not([aria-disabled='true']) {
+    cursor: pointer;
+  }
+}
+
+@utility bg-brand-gradient {
+  background: linear-gradient(135deg, #6c4cf1 0%, #2a8cf0 100%);
+}
+
+@utility scrollbar-thin {
+  scrollbar-width: thin;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@utility animate-toast-in {
+  animation: toast-in 180ms ease-out;
+}
